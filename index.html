@@ -140,15 +140,18 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation</h1>
+          <h1 class="title is-1 publication-title">Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <span class="author-block">
-                <a href="">Haoyang Su</a><sup>1#</sup>,</span>
+                <a href="">Haoyang Su</a><sup>1,#</sup>,</span>
               <span class="author-block">
-                <a href="">Renqi Chen</a><sup>1#</sup>,</span>
+                <a href="">Renqi Chen</a><sup>1,#</sup>,</span>
               <span class="author-block">
                 <a href="">Shixiang Tang</a><sup>1※</sup>,
+              </span>
+              <span class="author-block">
+                <a href="">Zhenfei Yin</a><sup>1※</sup>,
               </span>
               <span class="author-block">
                 <a href="">Xinzhe Zheng</a><sup>1</sup>,
@@ -157,17 +160,32 @@
                 <a href="">Jinzhe Li</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="">Zhenfei Yin</a><sup>1</sup>,
+                <a href="">Biqing Qi</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="">Qi Wu</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="">Hui Li</a><sup>3</sup>,
               </span>
               <span class="author-block">
                 <a href="">Wanli Ouyang</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="">Nanqing Dong</a><sup>1※</sup>
+                <a href="">Philip Torr</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a href="">Bowen Zhou</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="">Nanqing Dong</a><sup>1,2,※</sup>
             </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Shanghai Artificial Intelligence Laboratory</span>
+            <span class="author-block"><sup>2</sup>Shanghai Innovation Institute</span>
+            <span class="author-block"><sup>3</sup>Shanghai Institute for Science of Science</span>
+            <span class="author-block"><sup>4</sup>Department of Engineering Science, University of Oxford</span>
 <!--             <span class="author-block"><sup>2</sup>Yazhouwan National Laboratory,</span>
             <span class="author-block"><sup>3</sup>China Agricultural University,</span>
             <span class="author-block"><sup>4</sup>Hangzhou Dianzi University,</span>
@@ -241,9 +259,9 @@
         <div class="content has-text-justified">
           <p>
             <ul>
-              <li>To the best of our knowledge, we propose the first multi-agent system for conducting scientific collaborations in an end-to-end pipeline from team organization to novel scientific idea generation. Furthermore, the real data is utilized for role-play and the objective evaluation of final outputs.</li>
-              <li>We conduct extensive evaluations to investigate VirSci in terms of the team settings and the novelty of generated scientific ideas. The results demonstrate that multi-agent collaboration can improve the quality of the outcomes, surpassing the SOTA single-agent method.</li>
-              <li>The simulation results align with the important findings in Science of Science, such as fresh teams tend to create more innovative research, showcasing the potential of VirSci as a powerful tool for future research in this field.</li>
+              <li>To the best of our knowledge, we propose the first multi-agent system with a scientific research ecosystem for conducting and benchmarking scientific collaborations, named VirSci, where real data is used for role-playing and objective evaluation.</li>
+              <li>To simulate a reliable scientific collaboration process, we propose an end-to-end pipeline that spans team organization to idea generation. A novel inter- and intra-team discussion mechanism is introduced to promote communication topology and enhance the simulation realism.</li>
+              <li>Extensive experiments demonstrate that multi-agent collaboration improves outcome quality, surpassing existing methods. We also conduct systematic experiments to investigate factors influencing the system, with findings aligning with established principles from the Science of Science, such as fresh teams tend to generate more innovative research, underscoring VirSci's reliability as a powerful tool for autonomous scientific discovery.</li>
             </ul>
           </p>
         </div>
@@ -260,17 +278,12 @@
         <h2 class="title is-3">👀 Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The rapid advancement of scientific progress requires innovative tools that can accelerate discovery. 
-            While recent AI methods, particularly large language models (LLMs), 
-            have shown promise in tasks such as hypothesis generation and experimental design, 
-            they fall short in replicating the collaborative nature of real-world scientific practices, 
-            where diverse teams of experts work together to tackle complex problems. To address the limitation, 
-            we propose an LLM-based multi-agent system, i.e., Virtual Scientists (VirSci), designed to mimic the teamwork inherent in scientific research. 
+            The rapid advancement of scientific progress requires innovative tools that can accelerate knowledge discovery. 
+            Although recent AI methods, particularly large language models (LLMs), have shown promise in tasks such as hypothesis generation and experimental design, they fall short of replicating the collaborative nature of real-world scientific practices, where diverse experts work together in teams to tackle complex problems. 
+            To address the limitations, we propose an LLM-based multi-agent system, i.e., Virtual Scientists (VirSci), designed to mimic the teamwork inherent in scientific research. 
             VirSci organizes a team of agents to collaboratively generate, evaluate, and refine research ideas. 
-            Through comprehensive experiments, we demonstrate that this multi-agent approach outperforms the state-of-the-art method in producing novel and impactful scientific ideas, 
-            showing potential in aligning with key insights in the Science of Science field. Our findings suggest that integrating collaborative agents can lead to more innovative scientific outputs, 
-            offering a robust system for autonomous scientific discovery.
-           
+            Through comprehensive experiments, we demonstrate that this multi-agent approach outperforms the state-of-the-art method in producing novel scientific ideas.
+            We further investigate the collaboration mechanisms that contribute to its tendency to produce ideas with higher novelty, offering valuable insights to guide future research and illuminating pathways toward building a robust system for autonomous scientific discovery.      
           </p>
         </div>
       </div>
